@@ -21,7 +21,6 @@ body{
 .app-name {
     font-size: 20px;
     font-weight: 400;
-    margin-top: ;
     margin-bottom: 15px;
 }
 
@@ -33,6 +32,7 @@ body{
 
 .fa {
     align-self: center;
+    justify-self: center;
 }
 
 .fa-check-circle {
