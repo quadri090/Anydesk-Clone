@@ -2,11 +2,11 @@
     border: none;
     background-color: whitesmoke;
 }
-html {
-    width: 99%;
-}
+
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    overflow: hidden;
 }
 
 .flex {
@@ -26,7 +26,7 @@ body{
 
 .container-2-2 {
     border: 1px solid rgb(218, 215, 215);
-    width: 95%;
+    width: 93%;
     margin: 0px 10px 0px 10px;
 }
 
@@ -57,7 +57,8 @@ input {
     width: 100%;
     background-color: rgb(255, 51, 0);
     justify-content: center;
-    margin: 5px 0px 0px 0px;
+    margin: 5px 0px 0px -8px;
+    border: none;
 }
 
 .desc {
@@ -173,11 +174,9 @@ li > a {
     margin: -10px 20px 0px 20px;
 }
 
-/* .container-9 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 2fr 0.5fr;
-    gap: 10px;
-} */
+.container-9 {
+    margin-left: 10px;
+}
 
 .tiles {
     margin: 20px 0px 30px 10px;
@@ -190,7 +189,6 @@ li > a {
 
 .tile-1 {
     background-color: rgb(209, 58, 58);
-    /* padding: 20px 0px 30px 20px; */
 }
 
 .tile-2 {
@@ -225,7 +223,7 @@ li > a {
 
 .install {
     font-weight: normal;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 span {
@@ -241,6 +239,7 @@ span {
     padding-top: 40px;
     font-weight: normal;
     margin-right: 20px;
+    font-size: 14px;
 }
 
 
